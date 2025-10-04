@@ -1,0 +1,12 @@
+export http_proxy=http://192.168.40.1:7890
+export https_proxy=http://192.168.40.1:7890
+unset http_proxy
+unset https_proxy
+
+/usr/local/bin/gunicorn -b 127.0.0.1:5013 app.main:arl_app -w 3 --access-logfile arl_web.log --access-logformat '%({x-real-ip}i)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"'
+
+/usr/bin/python3.8 -m app.scheduler
+
+/usr/local/bin/celery -A app.celerytask.celery worker -l info -Q arlgithub -n arlgithub -c 2 -O fair -f arl_worker.log
+
+/usr/local/bin/celery -A app.celerytask.celery worker -l info -Q arltask -n arltask -c 2 -O fair -f arl_worker.log

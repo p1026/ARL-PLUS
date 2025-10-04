@@ -1,0 +1,508 @@
+[
+  {
+    "name": "阿里",
+    "url": "https://security.alibaba.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "腾讯",
+    "url": "https://security.tencent.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "百度",
+    "url": "https://bsrc.baidu.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "美团",
+    "url": "https://security.meituan.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "360",
+    "url": "https://security.360.cn/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "京东卡",
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "网易",
+    "url": "https://aq.163.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "字节",
+    "url": "https://src.bytedance.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "京东",
+    "url": "https://security.jd.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "微博",
+    "url": "https://wsrc.weibo.com/",
+    "level": "沉寂",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "智联",
+    "url": "https://src.zhaopin.com",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "猎聘",
+    "url": "https://security.liepin.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "BOSS直聘",
+    "url": "https://security.zhipin.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "58",
+    "url": "https://security.58.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "途虎",
+    "url": "https://security.tuhu.cn/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "贝壳",
+    "url": "https://security.ke.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "自如",
+    "url": "https://zrsecurity.ziroom.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "苏宁",
+    "url": "https://security.suning.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "苏宁卡"
+    ]
+  },
+  {
+    "name": "唯品会",
+    "url": "https://sec.vip.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "顺丰",
+    "url": "http://sfsrc.sf-express.com",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "中通",
+    "url": "https://sec.zto.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "货拉拉",
+    "url": "https://llsrc.huolala.cn/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "滴滴",
+    "url": "http://sec.didichuxing.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "T3",
+    "url": "https://security.t3go.cn/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "携程",
+    "url": "https://sec.ctrip.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "同城旅行",
+    "url": "https://sec.ly.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "快手",
+    "url": "https://security.kuaishou.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "b站",
+    "url": "https://security.bilibili.com",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "爱奇艺",
+    "url": "https://security.iqiyi.com/",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "陌陌",
+    "url": "https://security.immomo.com",
+    "level": "活跃",
+    "range": [
+      "常规漏洞",
+      "威胁情报"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "快看",
+    "url": "https://www.kuaikanmanhua.com",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "知识星球",
+    "url": "https://security.zsxq.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "京东卡"
+    ]
+  },
+  {
+    "name": "华为",
+    "url": "https://bugbounty.huawei.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "小米",
+    "url": "https://sec.xiaomi.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)",
+      "隐私合规(IOS)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "OPPO",
+    "url": "https://security.oppo.com/",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "VIVO",
+    "url": "https://security.vivo.com.cn",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  },
+  {
+    "name": "荣耀",
+    "url": "https://security.hihonor.com",
+    "level": "一般",
+    "range": [
+      "常规漏洞",
+      "威胁情报",
+      "隐私合规(安卓)"
+    ],
+    "gift": [
+      "周边",
+      "现金"
+    ]
+  }
+]
