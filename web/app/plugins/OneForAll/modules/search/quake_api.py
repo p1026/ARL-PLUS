@@ -20,7 +20,7 @@ class Quake(Search):
         """
         self.per_page_num = 100
         self.page_num = 0
-        while self.per_page_num * self.page_num < settings.cam_records_maximum_per_domain:
+        while True:
             time.sleep(self.delay)
             self.header = self.get_header()
             self.header.update({'Content-Type': 'application/json'})

@@ -40,8 +40,8 @@ QUERY_PLUGIN:
     api_key: ""
     enable: false
   virustotal: # 网站 https://www.virustotal.com/gui/
-    api_key: ""
-    enable: false
+    api_key: "d1c35a90740a9996218c825642757d23999d83efa60fe745a3509cb959574787"
+    enable: true
   zoomeye:
     api_key: ""
     max_page: 20
@@ -109,7 +109,7 @@ WEBHOOK:
 
 #GITHUB 搜索 TOKEN
 GITHUB:
-  TOKEN: ""
+  TOKEN: "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"
 
 #代理配置项，如"http://127.0.0.1:8080", 端口扫描不会走代理
 PROXY:
@@ -133,7 +133,7 @@ ARL:
   #域名爆破字典前端大字典选项，空即系统默认
   DOMAIN_DICT: ""
   #文件泄漏字典， 空即系统默认
-  FILE_LEAK_DICT: ""
+  FILE_LEAK_DICT: "/opt/web/app/dicts/file_leak_dict.txt"
 
   #域名爆破并发数
   DOMAIN_BRUTE_CONCURRENT: 300

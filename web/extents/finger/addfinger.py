@@ -1,14 +1,3 @@
-#!/usr/bin/ python
-# -*- coding:utf-8 -*-
-"""
--------------------------------------------------
-Author:       loecho
-Datetime:     2021-07-23 12:47
-ProjectName:  getFinger.py
-Blog:         https://loecho.me
-Email:        loecho@foxmail.com
--------------------------------------------------
-"""
 import sys
 import json
 import requests
@@ -123,7 +112,7 @@ if __name__ == '__main__':
         
         python3 ARl-Finger-ADD.py https://192.168.1.1:5003/ admin password
                                                         
-                                                         by  loecho
+                                                         by  pyj
             ''')
     except Exception as a:
         print(a)

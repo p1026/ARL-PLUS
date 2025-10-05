@@ -14,7 +14,7 @@ import time
 import exrex
 import fire
 
-import export
+from app.plugins.OneForAll import export
 from app.plugins.OneForAll.common import utils
 from app.plugins.OneForAll.config import settings
 from app.plugins.OneForAll.common.module import Module

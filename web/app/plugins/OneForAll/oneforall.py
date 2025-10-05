@@ -12,7 +12,7 @@ import fire
 from datetime import datetime
 
 
-import app.plugins.OneForAll.export
+from app.plugins.OneForAll import export
 from app.plugins.OneForAll.brute import Brute
 from app.plugins.OneForAll.common import utils, resolve, request
 from app.plugins.OneForAll.modules.collect import Collect
@@ -137,7 +137,7 @@ class OneForAll(object):
         :return: exported data
         :rtype: list
         """
-        return app.plugins.OneForAll.export.export_data(self.domain, alive=self.alive, fmt=self.fmt, path=self.path)
+        return export.export_data(self.domain, alive=self.alive, fmt=self.fmt, path=self.path)
 
     def main(self):
         """
@@ -229,9 +229,9 @@ class OneForAll(object):
         :return: All subdomain results
         :rtype: list
         """
-        print(oneforall_banner)
-        dt = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        print(f'[*] Starting OneForAll @ {dt}\n')
+        #print(oneforall_banner)
+        #dt = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        #print(f'[*] Starting OneForAll @ {dt}\n')
         logger.log('DEBUG', 'Python ' + utils.python_version())
         logger.log('DEBUG', 'OneForAll ' + version)
         utils.check_dep()

@@ -5,19 +5,19 @@ from app.services.searchEngines import search_engines
 
 class TestSearchEngines(unittest.TestCase):
     def test_baidu_search(self):
-        urls = baidu_search("tophant.com")
+        urls = baidu_search("hbpu.edu.cn")
         print("result:", len(urls))
         for x in urls:
             print(x)
 
     def test_bing_search(self):
-        urls = bing_search("qq.com")
+        urls = bing_search("hbpu.edu.cn")
         print("result:", len(urls))
         for x in urls:
             print(x)
 
     def test_search_engines(self):
-        urls = search_engines("vulbox.com")
+        urls = search_engines("hbpu.edu.cn")
         print("result:", len(urls))
         for x in urls:
             print(x)

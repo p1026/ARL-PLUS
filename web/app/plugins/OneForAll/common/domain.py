@@ -55,8 +55,6 @@ class Domain(object):
 
         :return: registered domain result
         """
-        if not settings.use_tld_extract:
-            return self.string
         result = self.extract()
         if result:
             return result.registered_domain

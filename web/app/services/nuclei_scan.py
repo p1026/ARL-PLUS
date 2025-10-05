@@ -24,7 +24,7 @@ class NucleiScan(object):
 
         self.nuclei_bin_path = Config.NUCLEI_BIN
 
-        self.template_path = Config.NUCLEI_TEMPLATES
+        # self.template_path = Config.NUCLEI_TEMPLATES
 
         # 在nuclei 2.9.1 中 将-json 参数改成了 -jsonl 参数。
         self.nuclei_json_flag = None
@@ -101,7 +101,7 @@ class NucleiScan(object):
                    "-stats",
                    "-stats-interval 60",
                    "-o {}".format(self.nuclei_result_path),
-                   "-t {}".format(self.template_path)
+                   # "-t {}".format(self.template_path)
                    ]
 
         logger.info(" ".join(command))
