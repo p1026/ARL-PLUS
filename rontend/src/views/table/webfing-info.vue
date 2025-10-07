@@ -51,8 +51,8 @@
       <el-table-column :label="$t('table.screenshot')" width="260px" align="center">
         <template slot-scope="{row}">
           <el-popover placement="top-start" trigger="click"> <!--trigger属性值：hover、click、focus 和 manual-->
-            <img :src="row.screenshot" style="width: 600px;height: 600px" align="center">
-            <img slot="reference" :src="row.screenshot" style="width: 180px;height: 160px; cursor:pointer">
+            <img :src="`/api/${row.screenshot}`" style="width: 600px;height: 600px" align="center">
+            <img slot="reference" :src="`/api/${row.screenshot}`" style="width: 180px;height: 160px; cursor:pointer">
           </el-popover>
         </template>
       </el-table-column>

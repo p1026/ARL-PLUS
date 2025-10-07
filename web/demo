@@ -11,10 +11,6 @@ unset https_proxy
 
 /usr/local/bin/celery -A app.celerytask.celery worker -l info -Q arltask -n arltask -c 2 -O fair -f arl_worker.log
 
-hust.edu.cn
-pku.edu.cn
-hbpu.edu.cn
-tsinghua.edu.cn
-sjtu.edu.cn
-
-/image/68e1dc66b55491e9a6e708ac/https_www.baidu.com.jpg
+cd /usr/lib64
+ln -s libpcap.so.1.9.1 libpcap.so.0.8
+npm run build:prod
